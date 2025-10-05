@@ -55,5 +55,6 @@ print(type(set1))
 sentence = "I am a teacher and I love to inspire and teach people"
 words = sentence.split()
 unique_words = set(words)
+print(len(unique_words))
 print(unique_words)
 #The end
