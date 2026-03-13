@@ -9,11 +9,13 @@
   <body>
     <p>JavaScript can change HTML attribute values.</p>
 
-    <button onclick="toggleLight()">Turn on the light</button>
+    <button onclick="document.getElementById('image').src='../images/pic_bulbon.gif'">Turn on the light</button>
 
     <img id="image" src="../images/pic_bulboff.gif" alt="Sample Image" />
 
-    <button id="off" onclick="toggleLight()">Turn off the light</button>
+    <button id="off" onclick="document.getElementById('image').src='../images/pic_bulboff.gif'">Turn off the light</button>
+    <br>
+    <button onclick="toggleLight()" style="left: 122.5px; top: 20px; position: relative">Switch Light</button>
 
     <script src="script.js"></script>
   </body>
